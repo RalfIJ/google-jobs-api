@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+# files the examples write
+jobs.csv
+salaries.png
+seen_jobs.json
