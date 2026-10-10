@@ -63,6 +63,10 @@ Saved jobs.csv
 - **SerpApi** has a Google Jobs endpoint, with a monthly subscription.
 - **Job board APIs** such as Adzuna's give you their own listings rather than Google's, some with a free tier.
 
+## Use it from AI assistants (MCP)
+
+To let Claude, Cursor, VS Code or another MCP client search Google Jobs for you, add this MCP server URL: `https://mcp.apify.com/?tools=ralfij/google-jobs-scraper`. Sign in to Apify when the client asks, or send your Apify API token as `Authorization: Bearer <token>`. Runs are billed to your own Apify account.
+
 ## Notes
 
 - I built the Google Jobs Scraper used in these examples, so keep that in mind.
